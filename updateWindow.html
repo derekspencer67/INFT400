@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Update Ship</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="addWindow.css">
+  </head>
+  <body>
+	<h1 style="border-bottom:2px solid rgb(89,109,109);" class="text-center" >Star Citizen Hangar</h1>
+    <h3 class="text-center">Update Ship</h3><br>
+      <div class="text-center">
+        <label>Search for Ship by ID:</label>
+        <input type="text" id="ship_id_search" autofocus><br>
+		<button style="display:flex;justify-content:center;width:200px;margin-top:20px;margin-left:40%;margin-bottom:20px;background-color:rgb(89,109,109);" class="btn btn-secondary text-center" id="searchButton">Search</button>
+      </div>
+	  <br>
+	  <div>
+		  <input type="hidden" id="ship_id_found" readonly>
+			<label>Name:</label>
+			<input type="text" id="ship_name"><br>
+		<label>Role:</label>
+		  <input type="text" id="ship_role"><br>
+		<label>Size:</label>
+		  <input type="number" id="ship_size"><br>
+		<label>Health Points:</label>
+		  <input type="text" id="ship_hp"><br>
+		<label>Dimensions:</label>
+		  <input type="text" id="ship_dimensions"><br>
+		<label>Mass:</label>
+		  <input type="text" id="ship_mass"><br>
+		<label>Speed:</label>
+		  <input type="text" id="ship_speed"><br>
+		<label>Afterburner Speed:</label>
+		  <input type="text" id="ship_ab_speed"><br>
+		<label>Pitch:</label>
+		  <input type="text" id="ship_pitch"><br>
+		<label>Yaw:</label>
+		  <input type="text" id="ship_yaw"><br>
+		<label>Roll:</label>
+		  <input type="text" id="ship_roll"><br>
+		<label>Hydrogen Cap:</label>
+		  <input type="text" id="ship_hydrogen_cap"><br>
+		<label>Quantum Fuel Cap:</label>
+		  <input type="text" id="ship_qt_fuel_cap"><br>
+		<label>Cargo Grid Size:</label>
+		  <input type="text" id="ship_cargo_grid"><br>
+		<label>Weapon ID:</label>
+		  <input type="number" id="ship_weapon_id"><br>
+		<label>Quantum Drive ID:</label>
+		  <input type="number" id="ship_quant_id"><br>
+		<label>Shield ID:</label>
+		  <input type="number" id="ship_shield_id"><br>
+		<label>Ship Image URL:</label>
+		  <input type="text" id="ship_ship_url">
+		  <button style="display:flex;justify-content:center;width:200px;margin-top:20px;margin-left:40%;margin-bottom:20px;background-color:rgb(89,109,109);" class="btn btn-secondary text-center" id="updateButton">Update Ship</button>
+	  </div>
+    
+	<script src="updatewin.js"></script>
+
+</body>
+</html>

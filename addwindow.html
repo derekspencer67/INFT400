@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add New Ship</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="addWindow.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+
+    <h1 style="border-bottom:2px solid rgb(89,109,109);" class="text-center" >Star Citizen Hangar</h1>
+    <form>
+
+      <div class="mb-7 col-8">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="" required autofocus>
+      </div>
+
+      <div class="mb-7 col-8">
+        <label for="role" class="form-label">Role</label>
+        <input type="text" class="form-control" id="role" aria-describedby="role" placeholder="" required autofocus>
+      </div>
+
+    <div class="mb-7 col-8">
+      <label for="size" class="form-label">Size</label>
+      <input type="number" class="form-control" id="size" aria-describedby="size" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="hp" class="form-label">Health Points</label>
+      <input type="text" class="form-control" id="hp" aria-describedby="hp" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="dimensions" class="form-label">Dimensions</label>
+      <input type="text" class="form-control" id="dimensions" aria-describedby="dimensions" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="mass" class="form-label">Mass</label>
+      <input type="text" class="form-control" id="mass" aria-describedby="mass" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="speed" class="form-label">Speed</label>
+      <input type="text" class="form-control" id="speed" aria-describedby="speed" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="ab_speed" class="form-label">Afterburner Speed</label>
+      <input type="text" class="form-control" id="ab_speed" aria-describedby="ab_speed" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="pitch" class="form-label">Pitch</label>
+      <input type="text" class="form-control" id="pitch" aria-describedby="pitch" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="yaw" class="form-label">Yaw</label>
+      <input type="text" class="form-control" id="yaw" aria-describedby="yaw" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="roll" class="form-label">Roll</label>
+      <input type="text" class="form-control" id="roll" aria-describedby="roll" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="hydrogen_cap" class="form-label">Hydrogen Capacity</label>
+      <input type="text" class="form-control" id="hydrogen_cap" aria-describedby="hydrogen_cap" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="qt_fuel_cap" class="form-label">Quantum Fuel Cap</label>
+      <input type="text" class="form-control" id="qt_fuel_cap" aria-describedby="qt_fuel_cap" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="cargo_grid" class="form-label">Cargo Grid Size</label>
+      <input type="text" class="form-control" id="cargo_grid" aria-describedby="cargo_grid" placeholder="" required>
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="weapon_id" class="form-label">Weapon ID</label>
+      <input type="number" class="form-control" id="weapon_id" aria-describedby="weapon_id" min="1" max="1" placeholder="" >
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="quant_id" class="form-label">Quantum Drive ID</label>
+      <input type="number" class="form-control" id="quant_id" aria-describedby="quant_id" min="1" max="1" placeholder="" >
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="shield_id" class="form-label">Shield ID</label>
+      <input type="number" class="form-control" id="shield_id" aria-describedby="shield_id" min="1" max="1" placeholder="">
+    </div>
+
+    <div class="mb-7 col-8">
+      <label for="ship_url" class="form-label">Ship Image URL</label>
+      <input type="text" class="form-control" id="ship_url" aria-describedby="ship_url" placeholder="" >
+    </div>
+
+      <button style="display:flex;justify-content:center;width:200px;margin-top:20px;margin-left:40%;margin-bottom:20px;background-color:rgb(89,109,109);" class="btn btn-secondary text-center" type="submit">Add Ship</button>
+    </form>
+
+<script src="addwin.js"></script>
+  
+  </body>
+</html>

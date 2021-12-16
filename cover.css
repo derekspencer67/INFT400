@@ -1,0 +1,10 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    border: 2px solid rgb(89,109,109);
+}
+
+#new {
+    font-size:1.5em;
+    background-color: rgb(89,109,109);
+}
